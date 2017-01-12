@@ -1,0 +1,49 @@
+/* TOP HEADER STYLING */
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+}
+
+.top h1 {
+	text-align: center;
+}
+
+
+
+
+
+/* LEFT SIDE BAR STYLING*/
+.left {
+    position:absolute;
+    left:2%; top:92px; bottom: 0;
+    width: 200px;
+    background-color: lightblue;
+}
+
+.left ul {
+	list-style: none;
+
+}
+
+.left ul li {
+	color: yellow;
+	margin: 40% 5% 40% 0;
+}
+
+
+
+
+
+
+
+/* MAIN CONTENT (RIGHT SIDE) STYLING */
+.main {
+    position: absolute;
+    left:200px; top:92px; right:0; bottom:0;
+    background-color: red;
+}
+
+.main h3{
+	text-align: center;
+}
