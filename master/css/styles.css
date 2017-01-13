@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*BASE ELEMENT STYLES*/
 
 * {
@@ -16,6 +17,25 @@ body {
   background-color: white;
   line-height: 1.7em;
   letter-spacing: 2px;
+=======
+/********************************************************************************
+ * KEEP IN MIND: THIS STYLE SHEET IS USED FOR ALL OF THE HTML FILES *           *
+ *                                                                              *
+ *      IF YOU WANT TO APPLY A CUSTOM CSS LAYOUT FOR YOUR PAGE,                 *
+ *      YOU NEED TO CREATE A SEPERATE CSS FILE TO LINK TO IN                    *
+ *      THE HTML FILE.                                                          *
+ *******************************************************************************/
+
+
+
+
+
+/* TOP HEADER STYLING */
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+>>>>>>> 4e7fce4d52d8b398517308d857374aa1ebb707a7
 }
 
 
@@ -51,7 +71,7 @@ body {
 
 .left ul li {
 	color: yellow;
-	margin: 40% 5% 40% 0;
+	margin: 30% 4% 30% 0;
 }
 
 li a {
