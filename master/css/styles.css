@@ -6,9 +6,11 @@
  *      THE HTML FILE.                                                          *
  *******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
+body{
+    font-family: 'Roboto';
+}
 
 /* TOP HEADER STYLING */
 .top {
