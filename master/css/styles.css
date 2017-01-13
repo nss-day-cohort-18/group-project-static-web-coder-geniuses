@@ -1,3 +1,15 @@
+/********************************************************************************
+ * KEEP IN MIND: THIS STYLE SHEET IS USED FOR ALL OF THE HTML FILES *           *
+ *                                                                              *
+ *      IF YOU WANT TO APPLY A CUSTOM CSS LAYOUT FOR YOUR PAGE,                 *
+ *      YOU NEED TO CREATE A SEPERATE CSS FILE TO LINK TO IN                    *
+ *      THE HTML FILE.                                                          *
+ *******************************************************************************/
+
+
+
+
+
 /* TOP HEADER STYLING */
 .top {
     position:absolute;
