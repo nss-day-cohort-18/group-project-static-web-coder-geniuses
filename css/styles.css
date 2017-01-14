@@ -1,0 +1,158 @@
+/*BASE ELEMENT STYLES*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+  font-style: light;
+  font-weight: 200;
+  color:gray;
+  background-color: white;
+  line-height: 1.7em;
+  letter-spacing: 2px;
+}
+
+/********************************************************************************
+ * KEEP IN MIND: THIS STYLE SHEET IS USED FOR ALL OF THE HTML FILES *           *
+ *                                                                              *
+ *      IF YOU WANT TO APPLY A CUSTOM CSS LAYOUT FOR YOUR PAGE,                 *
+ *      YOU NEED TO CREATE A SEPERATE CSS FILE TO LINK TO IN                    *
+ *      THE HTML FILE.                                                          *
+ *******************************************************************************/
+
+
+
+
+
+/* TOP HEADER STYLING */
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+
+}
+
+
+
+/* TOP HEADER STYLING */
+
+
+.top h1 {
+	text-align: center;
+}
+
+
+/*PARAGRAPH STYLING*/
+ p {
+  padding-right: 10px;
+  padding-right: 10px
+ }
+
+
+/* LEFT SIDE BAR STYLING*/
+.left {
+    position:absolute;
+    left:2%; top:92px; bottom: 0;
+    width: 225px;
+    background-color: lightblue;
+}
+
+.left ul {
+	list-style: none;
+    text-decoration: none;
+
+}
+
+.left ul li {
+	color: yellow;
+	margin: 30% 4% 30% 0;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+/* MAIN CONTENT (RIGHT SIDE) STYLING */
+
+
+.main {
+    position: absolute;
+    left:225px; top:92px; right:0; bottom:0;
+    background-color: white;
+}
+
+.main h3{
+	text-align: center;
+}
+
+
+
+/*LOGO IN FOOTER*/
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+
+
+
+
+/*STICKY FOOTER*/
+
+.wrap {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+  height: 100px; /* .push must be the same height as .footer */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+
+/**LINKS IN CONTACT PAGE**/
+
+.contactInfo li.linkedin a {
+  background-image: url('img/linkedin.png');
+}
+
+.contactInfo li.mail a {
+  background-image: url('img/mail.png');
+}
+}
+
+.contactInfo li.github a {
+  background-image: url('img/github.png');
+}
+
+.contactInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contactInfo a {
+
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
