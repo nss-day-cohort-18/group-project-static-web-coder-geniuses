@@ -101,10 +101,10 @@ console.log("FLAVORS: ", flavors);
 // Icing on The Cake
 // <article>	"icingOnTheCake"
 // <h3> 		"cakeName"
-// <img>		"cakeImg"				(image)
-// <p> 			"cakeDesc"				(desc)
-// <p>			"cakeIng"				(ingred)
-// <p>			"cakePrice"				(price)
+// <img>		"cakeImg"								(image)
+// <p> 			"cakeDesc"								(desc)
+// <p>			"cakeIng"								(ingred)
+// <p>			"cakePrice"								(price)
 
 var cakeNameDOM = document.getElementById("cakeName");
 var cakeImgSrcDOM = document.getElementById("cakeImg");
@@ -124,10 +124,10 @@ cakeImgSrcDOM.src = flavors[0].imageSource;
 // Love Potion #18
 // <article>		"potionCard"
 // <h3>				"potionName"
-// <img>			"potionImg"						(image)
-// <p>				"potionDesc"					(desc)
-// <p>				"potionIng"						(ingred)
-// <p>				"potionPrice"					(price)
+// <img>			"potionImg"							(image)
+// <p>				"potionDesc"						(desc)
+// <p>				"potionIng"							(ingred)
+// <p>				"potionPrice"						(price)
 
 
 var potionNameDOM = document.getElementById("potionName");
@@ -194,10 +194,10 @@ winterImgSrcDOM.src = flavors[3].imageSource;
 // Pink Bubble Gum
 // <article>		"pinkBubbleGum"
 // <h3>				"bubbleGumName"
-// <img>			"bubbleGumImg"					(image)
-// <p>				"bubbleGumDesc"					(desc)
-// <p>				"bubbleGumIng"					(ingred)
-// <p>				"bubbleGumPrice"				(price)
+// <img>			"bubbleGumImg"						(image)
+// <p>				"bubbleGumDesc"						(desc)
+// <p>				"bubbleGumIng"						(ingred)
+// <p>				"bubbleGumPrice"					(price)
 
 var pinkNameDOM = document.getElementById("bubbleGumName");
 var pinkImgSrcDOM = document.getElementById("bubbleGumImg");
@@ -218,10 +218,10 @@ pinkImgSrcDOM.src = flavors[4].imageSource;
 // Rainbow Sherbet
 // <article>		"rainbowSherbet"
 // <h3>				"sherbetName"
-// <img>			"sherbetImg"					(image)
-// <p>				"sherbetDesc"					(desc)
-// <p>				"sherbetIng"					(ingred)
-// <p>				"sherbetPrice"					(price)
+// <img>			"sherbetImg"						(image)
+// <p>				"sherbetDesc"						(desc)
+// <p>				"sherbetIng"						(ingred)
+// <p>				"sherbetPrice"						(price)
 
 var rainbowNameDOM = document.getElementById("sherbetName");
 var rainbowImgSrcDOM = document.getElementById("sherbetImg");
@@ -265,10 +265,10 @@ wildImgSrcDOM.src = flavors[6].imageSource;
 // Rock N' Pop
 // <article>		"rockPop"
 // <h3>				"rockPopName"
-// <img>			"rockPopImg"					(image)
-// <p>				"rockPopDesc"					(desc)
-// <p>				"rockPopIng"					(ingred)
-// <p>				"rockPopPrice"					(price)
+// <img>			"rockPopImg"						(image)
+// <p>				"rockPopDesc"						(desc)
+// <p>				"rockPopIng"						(ingred)
+// <p>				"rockPopPrice"						(price)
 
 var rockNameDOM = document.getElementById("rockPopName");
 var rockImgSrcDOM = document.getElementById("rockPopImg");
