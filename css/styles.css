@@ -105,7 +105,7 @@ body {
 }
 
 .img {
-  width: 100%;
+/*  width: 100%;*/
 }
 /*img {
   position: relative;
@@ -121,12 +121,15 @@ body {
 }
 
 
-/* LOGO IN FOOTER */
+/* LOGO IN FOOTER AND AWARDS*/
 .logo {
   width: 200px;
   height: 200px;
-  margin: 0 5px;
-  text-align: center;
+  margin: 0 50% 0 50%;
+}
+
+.awardsImageContainer{
+  width: 100%;
 }
 
 /* footer */
