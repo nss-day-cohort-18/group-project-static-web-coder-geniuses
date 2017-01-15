@@ -104,6 +104,18 @@ console.log("FLAVORS: ", flavors);
 // <p>			"cakeIng"				(ingred)
 // <p>			"cakePrice"				(price)
 
+var cakeNameDOM = document.getElementById("cakeName");
+var cakeImgSrcDOM = document.getElementById("cakeImg");
+var cakeDescDOM = document.getElementById("cakeDesc");
+var cakeIngDOM = document.getElementById("cakeIng");
+var cakePriceDOM = document.getElementById("cakePrice");
+
+cakeNameDOM.innerHTML = "TEST TEST TEST NAME";
+cakeDescDOM.innerHTML = "DESCRIPION DESCRIPTION";
+cakeIngDOM.innerHTML = "INGREDIENTS INGREDIENTS";
+cakePriceDOM = "PRICE PRICE PRICE";
+
+
 // Love Potion #18
 // <article>		"potionCard"
 // <h3>				"potionName"
