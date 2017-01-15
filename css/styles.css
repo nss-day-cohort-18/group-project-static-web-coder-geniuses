@@ -1,8 +1,5 @@
 /*BASE ELEMENT STYLES*/
 
-* {
-  margin: 0;
-}
 html,
 body {
   height: 100%;
@@ -32,7 +29,7 @@ body {
 
 /* TOP HEADER STYLING */
 .top {
-    position:absolute;
+/*    position:absolute;*/
     left:0; right:0;
     height: 92px;
 
@@ -59,7 +56,7 @@ body {
 .left {
     position:absolute;
     left:2%; top:92px; bottom: 0;
-    width: 200px;
+    width: 225px;
     background-color: lightblue;
 }
 
@@ -85,7 +82,7 @@ li a {
 
 .main {
     position: absolute;
-    left:200px; top:92px; right:0; bottom:0;
+    left:225px; top:92px; right:0; bottom:0;
     background-color: white;
 }
 
@@ -158,4 +155,58 @@ li a {
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************/
+/***** FLAVOR PAGE (Will) *****/
+/******************************/
+
+.mainFlavorContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+
+.flexItem{
+  border-style: solid;
+}
+
+.flavor{
+  margin: 1%;
+  width: 30%;
+  font-size: .85em;
+}
+
+.flavorImageContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flavorImageContainer img{
+  max-height: 125px;
+  max-width: 125px;
+  min-height: 25px;
+  min-width: 25px;
+}
+
+
+.flavorDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
