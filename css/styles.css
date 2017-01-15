@@ -1,3 +1,21 @@
+
+/*BASE ELEMENT STYLES*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+  font-weight: 200;
+  color:gray;
+  background-color: white;
+  line-height: 1.7em;
+  letter-spacing: 2px;
+}
+
+
 /********************************************************************************
  * KEEP IN MIND: THIS STYLE SHEET IS USED FOR ALL OF THE HTML FILES *
  ********************************************************************************/
@@ -7,10 +25,11 @@
 
 /**** WHOLE PAGE ****/
 
-html, body {
-  height: 100%;
-  min-height: 100%;
-  font-family: "Roboto";
+/* TOP HEADER STYLING */
+.top {
+/*    position:absolute;*/
+    left:0; right:0;
+    height: 92px;
 }
 
 
@@ -37,7 +56,12 @@ html, body {
     background-color: #bfbfbf;
     border: 5px black solid;
     margin-left: 2%;
+    margin-right: 2%;
     font-weight: 700;
+    position:absolute;
+    left:1%; top:92px; bottom: 0;
+    width: 245px;
+    background-color: lightblue;
 }
 
 .left ul {
@@ -47,16 +71,23 @@ html, body {
 
 .left ul li {
 	color: yellow;
-	margin: 40% 5% 40% 0;
+	margin: 30% 0% 30% 0;
 }
 
 
 /* MAIN CONTENT (RIGHT SIDE) STYLING */
 .main {
   float: left;
-  border: 5px solid black;
-  width: 74%;
-  margin-left: 2%;
+  border: 5px solid green;
+  margin-left: 5%;
+    position: absolute;
+    left:245px; top:92px; right:0; bottom:0;
+    background-color: lightgreen;
+}
+
+.marginMain{
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .main h3{
@@ -66,21 +97,20 @@ html, body {
 .card {
   border: 1px solid black;
   float: left;
-  width: 30%;
-  margin: 0 1% 0 1%;
-  margin-top: 2.5%;
-  margin-bottom: 5%;
-  padding: 0 2px 0 2px;
+  width: 40%;
+/*  margin-left: 2%;
+  margin-right: 2%;*/
+  margin: 5% 4% 5% 4%;
   height: 250px;
 }
 
 .img {
   width: 100%;
 }
-img {
+/*img {
   position: relative;
   margin: 0 35% 0 35%;
-}
+}*/
 .description {
   font-size: auto;
   color: green;
@@ -102,8 +132,8 @@ img {
 /* footer */
 .footer {
     text-align: center;
-    margin-top: 15%;
-
+    margin-top: 50%;
+    margin-left: 6%;
 }
 
 /********************************************************************************
@@ -119,15 +149,21 @@ img {
 *LINKS IN CONTACT PAGE
 **********************************************************************************/
 
+.contactUsHeader{
+  margin-bottom: 1%;
+}
 .contactInfo li.linkedin a {
   background-image: url('img/linkedin.png');
+  margin: 0;
 }
 
 .contactInfo li.mail a {
   background-image: url('img/mail.png');
+  margin: 0;
 }
 .contactInfo li.github a {
   background-image: url('img/github.png');
+  margin: 0;
 }
 .contactInfo {
   list-style: none;
@@ -138,8 +174,72 @@ img {
 .contactInfo a {
   display: block;
   min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+  margin-bottom: 2%;
+
+}
+
+.contactName{
+  font-family: "Roboto";
+  color: black;
+  margin-top: .5%;
+}
+
+.contactPerson{
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+/******************************/
+/***** FLAVOR PAGE (Will) *****/
+/******************************/
+
+.mainFlavorContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+
+.flexItem{
+  border-style: solid;
+}
+
+.flavor{
+  margin: 1%;
+  width: 30%;
+  font-size: .85em;
+  bottom: 0;
+}
+
+.flavorImageContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flavorImageContainer img{
+  max-height: 125px;
+  max-width: 125px;
+  min-height: 25px;
+  min-width: 25px;
+}
+
+
+.flavorDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
