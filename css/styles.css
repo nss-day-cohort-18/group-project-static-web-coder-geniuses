@@ -42,6 +42,7 @@ body {
     color: #45997A;
     font-family: "Roboto";
     background-color: #DBFFD9;
+    margin-left: 2%;
 }
 .header h1 {
   text-align: center;
@@ -57,6 +58,7 @@ body {
     border: 5px black solid;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 2%;
     font-weight: 700;
     position:absolute;
     left:1%; top:92px; bottom: 0;
@@ -78,11 +80,11 @@ body {
 /* MAIN CONTENT (RIGHT SIDE) STYLING */
 .main {
   float: left;
-  border: 5px solid green;
+/*  border: 5px solid green;*/
   margin-left: 5%;
-    position: absolute;
-    left:245px; top:92px; right:0; bottom:0;
-    background-color: lightgreen;
+  position: absolute;
+  left:245px; top:92px; right:0; bottom:0;
+/*background-color: lightgreen;*/
 }
 
 .marginMain{
@@ -209,7 +211,9 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: white;
 }
 
 .flexItem{
