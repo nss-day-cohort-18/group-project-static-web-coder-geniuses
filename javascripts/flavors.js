@@ -94,3 +94,79 @@ flavors.push(rockPop);
 flavors.push(patriotPop);
 
 console.log("FLAVORS: ", flavors);
+
+
+// Icing on The Cake
+// <article>	"icingOnTheCake"
+// <h3> 		"cakeName"
+// <img>		"cakeImg"				(image)
+// <p> 			"cakeDesc"				(desc)
+// <p>			"cakeIng"				(ingred)
+// <p>			"cakePrice"				(price)
+
+// Love Potion #18
+// <article>		"potionCard"
+// <h3>				"potionName"
+// <img>			"potionImg"						(image)
+// <p>				"potionDesc"					(desc)
+// <p>				"potionIng"						(ingred)
+// <p>				"potionPrice"					(price)
+
+// Strawberry Cheesecake
+// <article>		"strawberryCheesecake"
+// <h3>				"strawberryName"
+// <img>			"strawberryImg"						(image)
+// <p>				"strawberryDesc"					(desc)
+// <p>				"strawberryIng"						(ingred)
+// <p>				"strawberryPrice"					(price)
+
+// Winter White Chocolate
+// <article>		"winterWhiteChocolate"
+// <h3>				"winterWhiteName"
+// <img>			"winterWhiteImg"					(image)
+// <p>				"winterWhiteDesc"					(desc)
+// <p>				"winterWhiteIng"					(ingred)
+// <p>				"winterWhitePrice"					(price)
+
+// Pink Bubble Gum
+// <article>		"pinkBubbleGum"
+// <h3>				"bubbleGumName"
+// <img>			"bubbleGumImg"					(image)
+// <p>				"bubbleGumDesc"					(desc)
+// <p>				"bubbleGumIng"					(ingred)
+// <p>				"bubbleGumPrice"				(price)
+
+// Rainbow Sherbet
+// <article>		"rainbowSherbet"
+// <h3>				"sherbetName"
+// <img>			"sherbetImg"					(image)
+// <p>				"sherbetDesc"					(desc)
+// <p>				"sherbetIng"					(ingred)
+// <p>				"sherbetPrice"					(price)
+
+
+// Wile N' Reckless
+// <article>		"wildReckless"
+// <h3>				"wildRecklessName"
+// <img>			"wildRecklessImg"					(image)
+// <p>				"wildRecklessDesc"					(desc)
+// <p>				"wildRecklessIng"					(ingred)
+// <p>				"wildRecklessPrice"					(price)
+
+
+// Rock N' Pop
+// <article>		"rockPop"
+// <h3>				"rockPopName"
+// <img>			"rockPopImg"					(image)
+// <p>				"rockPopDesc"					(desc)
+// <p>				"rockPopIng"					(ingred)
+// <p>				"rockPopPrice"					(price)
+
+
+// Patriot Pop
+// <article>		"patriotPop"
+// <h3>				"patriotPopName"
+// <img>			"patriotPopImg"						(image)
+// <p>				"patriotPopDesc"					(desc)
+// <p>				"patriotPopIng"						(ingred)
+// <p>				"patriotPopPrice"					(price)
