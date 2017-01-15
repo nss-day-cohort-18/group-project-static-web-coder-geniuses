@@ -9,7 +9,7 @@ body {
 body {
   font-family:'Roboto', sans-serif;
   font-weight: 200;
-  color:gray;
+  color:#F79B2E;
   background-color: white;
   line-height: 1.7em;
   letter-spacing: 2px;
@@ -26,25 +26,27 @@ body {
 /**** WHOLE PAGE ****/
 
 /* TOP HEADER STYLING */
-.top {
+/*.top {*/
 /*    position:absolute;*/
-    left:0; right:0;
+ /*   left:0; right:0;
     height: 92px;
-}
+}*/
 
 
 
 /* TOP HEADER STYLING */
 .header {
-    border: 2px orange solid;
-    margin: 15px 15px 30px 15px;
+    border: 3px #E1358D solid;
+    margin: 15px 15px 30px 35px;
     text-align: center;
-    color: #45997A;
-    font-family: "Roboto";
-    background-color: #DBFFD9;
+    color: #F87AB8;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFEFEF;
+    letter-spacing: 6px;
 }
 .header h1 {
   text-align: center;
+
 }
 
 /*** NAVIGATION BAR ***/
@@ -53,36 +55,44 @@ body {
 /* LEFT SIDE BAR STYLING*/
 .left {
     float: left;
-    background-color: #bfbfbf;
-    border: 5px black solid;
+    border: 5px #F79B2E solid;
     margin-left: 2%;
     margin-right: 2%;
     font-weight: 700;
     position:absolute;
     left:1%; top:92px; bottom: 0;
     width: 245px;
-    background-color: lightblue;
+    background-color: #EFEFEF;
 }
 
 .left ul {
 	list-style: none;
-
 }
 
 .left ul li {
-	color: yellow;
-	margin: 30% 0% 30% 0;
+	margin: 0% 0% 30% 0;
 }
+/* links are #39B1C6 */
+.left a {
+  text-decoration: none;
+  color: #39B1C6;
+}
+/* links are #E1358D when hover and have blue border */
+.left a:hover {
+  color: #E1358D;
+  border: 2px solid #39B1c6;
+}
+
 
 
 /* MAIN CONTENT (RIGHT SIDE) STYLING */
 .main {
   float: left;
-  border: 5px solid green;
+  border: 5px solid #39B1C6;
   margin-left: 5%;
     position: absolute;
     left:245px; top:92px; right:0; bottom:0;
-    background-color: lightgreen;
+    background-color: #EFEFEF;
 }
 
 .marginMain{
@@ -113,7 +123,7 @@ body {
 }*/
 .description {
   font-size: auto;
-  color: green;
+  color: #E1358D;
 }
 
 .cardHeader {
@@ -132,8 +142,9 @@ body {
 /* footer */
 .footer {
     text-align: center;
-    margin-top: 50%;
+    margin-top: 100%;
     margin-left: 6%;
+    clear: both;
 }
 
 /********************************************************************************
@@ -143,6 +154,20 @@ body {
 /********************************************************************************
 * THIS IS FOR THE ABOUT PAGE
 **********************************************************************************/
+
+
+
+/* heading is #E1358D */
+.marginMain h3,
+h4 {
+  color: #E1358D;
+}
+/* centers 'a little about ourselves:' */
+.marginMain h4 {
+  text-align: center;
+}
+
+
 
 
 /*********************************************************************************
@@ -180,11 +205,17 @@ body {
 
 .contactName{
   font-family: "Roboto";
-  color: black;
+  color: #39B1C6;
+  text-decoration: underline;
   margin-top: .5%;
+  /* no space between links and names */
+  margin-bottom: 0; 
 }
 
-.contactPerson{
+.contactPerson ul {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
   border-style: solid;
   border-radius: 20px 20px 20px 20px;
   margin-left: 25%;
@@ -192,8 +223,15 @@ body {
   margin-bottom: 4%;
 }
 
-
-
+/* links are #F87AB8 color */
+.contactPerson a {
+  text-decoration: none;
+  color: #F87AB8;
+}
+/* links turn #F79B2E when hover over */
+.contactPerson a:hover {
+  color: #F79B2E;
+}
 
 
 
