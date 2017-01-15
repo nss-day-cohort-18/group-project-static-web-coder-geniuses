@@ -244,6 +244,18 @@ body {
 .flavorDetails{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  margin-left: 5%;
+
+}
+
+
+.flavorDetails h5{
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.flavorDetails p{
+  margin-top: .5%;
 }
