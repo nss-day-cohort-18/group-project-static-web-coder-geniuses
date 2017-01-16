@@ -40,9 +40,11 @@ body {
     margin: 15px 15px 30px 35px;
     text-align: center;
     color: #F87AB8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     background-color: #EFEFEF;
     letter-spacing: 6px;
+    margin-left: 2%;
+
 }
 .header h1 {
   text-align: center;
@@ -58,6 +60,7 @@ body {
     border: 5px #F79B2E solid;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 2%;
     font-weight: 700;
     position:absolute;
     left:1%; top:92px; bottom: 0;
@@ -90,9 +93,9 @@ body {
   float: left;
   border: 5px solid #39B1C6;
   margin-left: 5%;
-    position: absolute;
-    left:245px; top:92px; right:0; bottom:0;
-    background-color: #EFEFEF;
+  position: absolute;
+  left:245px; top:92px; right:0; bottom:0;
+  background-color: #EFEFEF;
 }
 
 .marginMain{
@@ -247,7 +250,11 @@ h4 {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: transparent;
+  border-style: none;
+  border: none;
 }
 
 .flexItem{
@@ -278,6 +285,18 @@ h4 {
 .flavorDetails{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  margin-left: 5%;
+
+}
+
+
+.flavorDetails h5{
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.flavorDetails p{
+  margin-top: .5%;
 }
